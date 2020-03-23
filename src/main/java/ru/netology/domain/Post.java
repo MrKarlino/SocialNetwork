@@ -2,7 +2,7 @@ package ru.netology.domain;
 
 import java.util.Date;
 
-public class TimelineItem {
+public class Post {
     int id;
     int ownerId;
     int fromId;
