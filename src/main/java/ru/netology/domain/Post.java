@@ -3,33 +3,33 @@ package ru.netology.domain;
 import java.util.Date;
 
 public class Post {
-    int id;
-    int ownerId;
-    int fromId;
-    int createdBy;
-    int signerId;
-    int postponedId;
-    Date date;
-    String postType;
+    private int id;
+    private int ownerId;
+    private int fromId;
+    private int createdBy;
+    private int signerId;
+    private int postponedId;
+    private Date date;
+    private String postType;
 
-    String text;
+    private String text;
 
-    int replyOwnerId;
-    int replyPostId;
+    private int replyOwnerId;
+    private int replyPostId;
 
-    boolean friendsOnly;
+    private boolean friendsOnly;
 
-    CommentsInfo commentsInfo;
-    LikeInfo likeInfo;
-    RepostsInfo repostsInfo;
-    ViewsInfo viewsInfo;
-    PostSource postSource;
-    Location location;
+    private CommentsInfo commentsInfo;
+    private LikeInfo likeInfo;
+    private RepostsInfo repostsInfo;
+    private ViewsInfo viewsInfo;
+    private PostSource postSource;
+    private Location location;
 
-    boolean canPin;
-    boolean canDelete;
-    boolean canEdit;
-    boolean isPinned;
-    boolean markedAsAds;
-    boolean isFavorite;
+    private boolean canPin;
+    private boolean canDelete;
+    private boolean canEdit;
+    private boolean isPinned;
+    private boolean markedAsAds;
+    private boolean isFavorite;
 }
