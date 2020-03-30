@@ -1,10 +1,10 @@
 package ru.netology.domain;
 
 public class CommentsInfo {
-    int count;
-    boolean canPost;
-    boolean groupsCanPost;
-    boolean canClose;
-    boolean canOpen;
+    private int count;
+    private boolean canPost;
+    private boolean groupsCanPost;
+    private boolean canClose;
+    private boolean canOpen;
 }
 

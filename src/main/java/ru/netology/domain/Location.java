@@ -1,7 +1,7 @@
 package ru.netology.domain;
 
 public class Location {
-    String type;
-    String coordinates;
-    Place place;
+    private String type;
+    private String coordinates;
+    private Place place;
 }
